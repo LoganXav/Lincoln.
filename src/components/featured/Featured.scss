@@ -1,0 +1,77 @@
+.featured {
+    display: flex;
+    justify-content: center;
+    height: 37.5rem;
+    background-color: #767676;
+    color: white;
+    .container {
+        display: flex;
+        width: 87.5rem;
+        align-items: center;
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap: 1.75rem;
+            .title{
+                font-size: 3.125rem;
+                i{
+                    font-weight: 300;
+                    
+                }
+            }
+            .search{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                border-radius: 0.4rem;                
+                .searchInput{
+                    
+                    display: flex;
+                    align-items: center;
+                    gap: 0.6rem;                                     
+                    
+                    img{
+                        width: 1.25rem;
+                        height: 1.25rem;
+                        margin: 0.75rem;
+                    }
+                    input{                        
+                        outline: none;
+                        border: none;
+                        
+                    }                    
+                }
+                button{
+                    width: 7.5rem;
+                    height: 3.125rem;
+                    border: none;
+                    cursor: pointer;
+                    background-color: #2C2C2C;
+                    color: white;
+                }
+            }
+            .popular {
+                display: flex;
+                gap: 0.6rem;
+                span{}
+                button{
+                    color: white;
+                    background-color: transparent;
+                    border: 1px solid lightgray;
+                    cursor: pointer;
+                    padding: 0.3rem 0.6rem;
+                    border-radius: 1.25rem;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .right{
+            height: 100%;
+            img{
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}

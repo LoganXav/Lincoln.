@@ -1,0 +1,86 @@
+.videocard{
+    display: flex;
+    justify-content: center;
+    padding: 6.25rem 0;
+    
+    &.dark{
+        background-color: #3C4443;
+        h1{
+            color: white !important;
+        }
+        p{
+            color: white !important;
+            margin-bottom: 20px;
+        }
+        .title{
+            font-size: 0.9rem !important;
+            font-weight: 300;
+        }
+        img{
+            width: 100%;
+        }
+        button{
+            cursor: pointer;
+            background-color: #CCA46C;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 1rem;
+            margin-top: 1.25rem;
+            border: none;
+            width: max-content;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+    .container{
+        width: 87.5rem;
+        display: flex;
+        align-items: center;
+        gap: 6.25rem;
+
+        .item{
+
+            &:first-child{
+                flex: 2;
+            }
+
+            &:last-child{
+                flex: 3;
+            }
+
+            h1{
+                font-weight: 500;
+                margin-bottom: 0.6rem;
+            }
+            p{
+                font-size: 1.25rem;
+                font-weight: 300;
+                color: gray;
+                line-height: 1.75rem;
+                letter-spacing: 1px;
+
+                
+            }
+            .title{
+                display: flex;
+                align-items: center;
+                gap: 0.6rem;
+                font-weight: 500;
+                font-size: 1.25rem;
+                color: gray;
+                img{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+
+
+            video{
+                width: 720px;
+            }
+        }
+
+    }
+}

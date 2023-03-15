@@ -1,0 +1,28 @@
+.slide{
+    display: flex;
+    justify-content: center;
+    padding: 6.25rem 0;
+    .container{
+        width: 87.5rem; 
+        position: relative;                
+    }
+    .carousel-initialized {
+        position: static;
+      }
+    .carousel-prev, .carousel-next {
+        width: 3.125rem;
+        height: 3.125rem;
+        color: white;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        bottom: 0;        
+        margin: auto;
+        
+    }
+    .carousel-prev {
+        left: -25px;
+        
+      }
+}
