@@ -16,8 +16,23 @@
         flex-direction: column;
         gap: 20px;
         height: 500px;
-        overflow: scroll;
-  
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+            width: 10px;
+            
+          }
+
+        &::-webkit-scrollbar-track {
+            background-color: #f2f2f2;
+          }  
+        
+        &::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 5px;
+        }
+        
         .item {
           display: flex;
           gap: 20px;
