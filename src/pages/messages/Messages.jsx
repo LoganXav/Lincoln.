@@ -8,10 +8,12 @@ const Messages = () => {
     isSeller: true,
   };
 
-  const message = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-  maxime cum corporis esse aspernatur laborum dolorum? Animi
-  molestias aliquam, cum nesciunt, aut, ut quam vitae saepe repellat
-  nobis praesentium placeat.`;
+  const message = `I'm currently in the process of building a small blog site and 
+  I'm in need of technical assistance to help me write the code. Specifically, 
+  I need someone who is experienced in HTML, CSS, and JavaScript to help me design 
+  and develop the site's user interface, as well as integrate basic functionality 
+  like commenting and search. If this sounds like a project you'd be interested in 
+  working on, please let me know your availability and rates. Thank you!`;
 
   return (
     <div className="messages">
