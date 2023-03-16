@@ -1,7 +1,7 @@
 import './ProjectCard.scss'
 import { Link } from 'react-router-dom'
 
-const CatCard = ({item}) => {
+const ProjectCard = ({item}) => {
     return ( 
         <Link to= "/gigs?Project=design" className='link'> 
             <div className='projectCard'>
@@ -18,4 +18,4 @@ const CatCard = ({item}) => {
      );
 }
  
-export default CatCard;
+export default ProjectCard;
